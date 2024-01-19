@@ -2,7 +2,7 @@
     margin: 0;
     overflow: hidden;
 }
-
+/* botão-da-camera-do-video-comferencia*/
 .floating-button {
     margin-right: 20px;
     margin-bottom: 100px;
@@ -10,6 +10,10 @@
     bottom: 20px;
     right: 20px;
     background-color: #3498db;
+    background-image: url(../images/imagem-user.jpeg);
+    background-size: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 60px;
     height: 60px;
     border-radius: 50%;

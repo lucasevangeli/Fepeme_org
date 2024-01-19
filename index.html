@@ -20,6 +20,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Animação externa-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Themify Icons -->
     <link href="fontawesome/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="css/themify-icons.css">
@@ -72,12 +74,13 @@
 
             <!--video conferencia-->
 
-            <div class="container mt-5">
-                <p class="container__p">
-                    <img src="images/video-solid.svg" alt="certificado video conferência">
-                    Compre seu certificado por <b>video conferência</b>
-            
-                </p>
+            <a href="https://api.whatsapp.com/message/S3EOJL2ZEPJ6K1?autoload=1&app_absent=0">
+                <div class="container mt-5">
+                    <p class="container__p">
+                        <img src="images/video-solid.svg" alt="certificado video conferência">
+                        Compre seu certificado por <b>video conferência</b>
+                    </p>
+            </a>
                 <div class="container text-center margin">
                     <div class="row">
                         <div class="col-sm-4">
@@ -117,7 +120,7 @@
     <div class="section light-bg" id="features">
 
 
-        <div class="container">
+        <div class="container" data-aos="fade-up">
 
             <div class="section-title">
                 <small>SOBRE</small>
@@ -125,7 +128,7 @@
             </div>
 
 
-            <div class="row">
+            <div class="row" data-aos="fade-up">
                 <div class="col-12 col-lg-4">
                     <div class="card features">
                         <div class="card-body">
@@ -169,12 +172,14 @@
 
         </div>
     <!--botão que flutua de chamada de video-->
-    <div class="body">
-        <div id="videoButton" class="floating-button">
-            <i class="fas fa-video"></i>
-            <div id="notificationDot"></div>
+    <a href="https://api.whatsapp.com/message/S3EOJL2ZEPJ6K1?autoload=1&app_absent=0">
+        <div class="body">
+            <div id="videoButton" class="floating-button">
+                <i class="fa-solid fa-video fa-beat-fade"></i>
+                <div id="notificationDot"></div>
+            </div>
         </div>
-    </div>
+    </a>
 
 
     </div>
@@ -199,7 +204,7 @@
     <!-- // indique é ganhe -->
 
 
-    <div id="indique" class="section light-bg">  
+    <div id="indique" class="section light-bg" data-aos="fade-up">  
         <div class="container">
             <div class="section-title">
                 <small>Contador Parceiro</small>
@@ -567,6 +572,8 @@
     <!-- jQuery and Bootstrap -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Animação externa-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <!-- Plugins JS -->
     <script src="js/owl.carousel.min.js"></script>
     <!-- Custom JS -->

@@ -110,3 +110,7 @@ $(function() {
     }
 
 }); /* End Fn */
+
+/* animação da pagina de elemento de entrada */
+
+AOS.init();
