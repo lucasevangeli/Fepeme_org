@@ -1,0 +1,54 @@
+.body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.floating-button {
+    margin-right: 20px;
+    margin-bottom: 100px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #3498db;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.floating-button:hover {
+    background-color: #2980b9;
+}
+
+#notificationDot {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 12px;
+    height: 12px;
+    background-color: red;
+    border-radius: 50%;
+    display: none;
+}
+
+#videoButton.active {
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
